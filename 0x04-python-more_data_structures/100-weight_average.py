@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def weight_average(my_list=[]):
     if my_list == [] or my_list is None:
         return (0)
@@ -8,4 +9,3 @@ def weight_average(my_list=[]):
         res += x * y
         res2 += y
     return (res / res2)
-
