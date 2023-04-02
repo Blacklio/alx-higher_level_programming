@@ -3,7 +3,9 @@
     A script that fetches https://intranet.htbn.io/status
 """
 
+
 import urllib.request
+
 
 if __name__ == "__main__":
     with urllib.request.urlopen('https://intranet.hbtn.io/status') as resp:
